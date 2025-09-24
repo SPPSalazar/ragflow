@@ -8,11 +8,10 @@ from dotenv import load_dotenv, find_dotenv
 from urllib.parse import quote_plus
 from pymongo import MongoClient
 from bson.json_util import dumps
-from slugify import slugify
 import json
 import logging
 import requests
-
+from slugify import slugify
 # =========================
 # Carga de entorno y logging
 # =========================
@@ -56,7 +55,9 @@ def sample_noticias_structured(n=3) -> List[Dict[str, Any]]:
   client = _get_mongo_client()
   db = client[MONGO_DB]
   col = db[MONGO_COL]
-  pipeline = [{"$sample": {"size": int(n)}}]
+  pipeline = [{"$sample": {"size": int(n)}},
+              {"$sort": {"Fecha": -1}}  # -1 = descendente, 1 = ascendente
+              ] 
   docs = list(col.aggregate(pipeline))
 
   client.close()
@@ -97,9 +98,9 @@ def cargar_docs(coleccion,dataset):
         "url":documento["URL"],
         "medio":documento["Medio"],
         "categoria": documento["Categoria"],
-        "entidades": documento["entidades"],
-        "personas": documento["personas"],
-        "relaciones":documento["relaciones_directas"]
+        "entidades": documento.get("entidades", ""),
+        "personas": documento.get("personas", ""),
+        "relaciones":documento.get("relaciones_directas", "")
         }})
 #import ragflow_sdk
 #print(ragflow_sdk.__version__) #verificar que sea la 20.05 para que acepte "meta_fields"

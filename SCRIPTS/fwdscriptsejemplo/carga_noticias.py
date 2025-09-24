@@ -17,7 +17,7 @@ dataset = rf.get_dataset(name=RF_DATASET_NAME)
 # =========================
 # --- sample record and normalization
 # # =========================
-noticias = funciones.sample_noticias_structured(n=4)
+noticias = funciones.sample_noticias_structured(n=100)
 noticias = funciones.datetime_ISO8601(noticias)#noticias[0]["Fecha"] es datetime.datetime no soportado por json
 funciones.cargar_docs(noticias,dataset)
 

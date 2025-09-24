@@ -42,7 +42,7 @@ MONGO_COL  = os.getenv("MONGO_PRO_COLLECTION", "Noticias")
 RAGFLOW_BASE_URL      = os.getenv("RAGFLOW_BASE_URL", "http://localhost:9380")
 RAGFLOW_API_KEY       = os.getenv("RAGFLOW_API_KEY", "ragflow-Q1MWQ0ZjUyOTQxNzExZjBhNmQ0ZjI2Mj")
 RAGFLOW_DATASET_ID    = os.getenv("RAGFLOW_DATASET_ID", "")  # si ya lo tienes
-RAGFLOW_DATASET_NAME  = os.getenv("RAGFLOW_DATASET_NAME", "noticias_kb")  # si no tienes ID
+RAGFLOW_DATASET_NAME  = os.getenv("RAGFLOW_DATASET_NAME", "a")  # si no tienes ID
 RAGFLOW_CHUNK_METHOD  = "manual"  # Cambiado a "manual" para control total sobre chunking
 RAGFLOW_EMBED_MODEL="amazon.titan-embed-text-v2:0@Bedrock"
 
@@ -463,4 +463,4 @@ def main(n: int = 4):
     log.info(f"   - Promedio por documento: {total_chars // len(uploaded_docs) if uploaded_docs else 0:,} caracteres")
 
 if __name__ == "__main__":
-    main(n=20)
+    main(n=3)

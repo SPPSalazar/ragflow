@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439011"
+  },
+  "title": "Hombre asesinado parque",
+  "date": "2025-10-07T00:00:00.000Z",
+  "content": "Un hombre fue encontrado muerto tras un ataque armado nocturno.",
+  "category": [
+    "asesinato"
+  ]
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439012"
+  },
+  "title": "Hombre asesinado parque",
+  "date": "2025-10-11T00:00:00.000Z",
+  "content": "Un hombre fue encontrado muerto tras un ataque armado nocturno.",
+  "category": [
+    "asesinato"
+  ]
+}]

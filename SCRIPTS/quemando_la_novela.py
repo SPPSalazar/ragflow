@@ -56,20 +56,20 @@ RF_URL          = os.getenv("RAGFLOW_BASE_URL", "http://localhost:9380")
 RAGFLOW_API_KEY       = os.getenv("RAGFLOW_API_KEY", "ragflow-Q1MWQ0ZjUyOTQxNzExZjBhNmQ0ZjI2Mj")
 
 RF_DATASET_ID   = os.getenv("RAGFLOW_DATASET_ID", "")               # si ya existe
-RF_DATASET_NAME = os.getenv("RAGFLOW_DATASET_NAME", "noticias_kb")  # si no hay ID
+RF_DATASET_NAME = os.getenv("RAGFLOW_DATASET_NAME", "a")  # si no hay ID
 
 # ========= Bedrock (Titan v2) =========
 AWS_REGION   = os.getenv("AWS_DEFAULT_REGION", "us-west-2")
 AWS_ACCESS   = os.getenv("AWS_ACCESS_KEY_ID", "")
 AWS_SECRET   = os.getenv("AWS_SECRET_ACCESS_KEY", "")
-TITAN_MODEL  = os.getenv("AWS_BEDROCK_EMBEDDINGS_ID", "amazon.titan-embed-text-v2:0")
-EMBED_DIMS   = int(os.getenv("EMBED_DIMS", "1024"))
+TITAN_MODEL  = os.getenv("AWS_BEDROCK_EMBEDDINGS_ID", "amazon.titan-embed-text-v2")
+EMBED_DIMS   = int(os.getenv("EMBED_DIMS", "256"))
 TITAN_NORMALIZE = True
 
 # ========= Control de lotes / tokens =========
-SAMPLE_SIZE = int(os.getenv("SAMPLE_SIZE", "10"))  # cuántos docs tomar aleatoriamente
+SAMPLE_SIZE = int(os.getenv("SAMPLE_SIZE", "2"))  # cuántos docs tomar aleatoriamente
 # Titan v2 soporta ~8K tokens; usamos margen conservador (p.ej. 7000)
-TITAN_TOKEN_BUDGET = int(os.getenv("TITAN_TOKEN_BUDGET", "7000"))
+TITAN_TOKEN_BUDGET = int(os.getenv("TITAN_TOKEN_BUDGET", "2000"))
 
 # ========= Utilidades =========
 def mongo_client() -> MongoClient:
@@ -242,7 +242,7 @@ def main():
         log.error(f"No se pudo conectar a MongoDB: {e}")
         return
 
-    rf = RAGFlow(api_key=RF_API_KEY, base_url=RF_URL)
+    rf = RAGFlow(api_key=RAGFLOW_API_KEY, base_url=RF_URL)
     dataset = ensure_dataset(rf)
     log.info(f"✔ Dataset RAGFlow listo: {dataset.id} ({dataset.name})")
 
@@ -276,10 +276,33 @@ def main():
             meta["id_original"] = str(d["_id"])
 
         # ===== 4) Crear documento y 1 chunk (solo contenido) =====
-        # Nota: 'display_name' visible en UI; metadata va en 'meta_fields'
-        doc = dataset.upload_documents([{"display_name": titulo}])[0]
+        # Nota: 'displayed_name' visible en UI; metadata va en 'meta_fields'
+        #doc = dataset.upload_documents([{"displayed_name": titulo}])[0]
         # Adjunta metadata a nivel documento
-        doc.update({"meta_fields": meta})
+        #doc.update({"meta_fields": meta})
+        from io import BytesIO
+        import re
+
+        def slugify(s: str) -> str:
+            s = re.sub(r"\s+", "_", s.strip())
+            s = re.sub(r"[^\w\-_.]", "", s, flags=re.UNICODE)
+            return s[:80] or "doc"
+
+        # ...
+
+        # ===== 4) Crear documento y 1 chunk (solo contenido) =====
+        payload = {
+            "title": titulo,
+            "content": content_trim,
+            "metadata": meta,
+        }
+        blob = BytesIO(json.dumps(payload, ensure_ascii=False).encode("utf-8"))
+        filename = f"{slugify(titulo)}.json"
+
+        doc = dataset.upload_documents([{
+            "displayed_name": filename,  # <- nombre visible
+            "blob": blob                 # <- archivo en memoria
+        }])[0]
 
         # ===== 5) Embedding explícito con Titan v2 =====
         try:

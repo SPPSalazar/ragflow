@@ -15,6 +15,10 @@ from bson.json_util import dumps
 from bson import ObjectId
 import numpy as np
 from decimal import Decimal
+import boto3
+from botocore.config import Config
+from botocore.exceptions import ClientError
+
 
 # ========= Logging & .env =========
 load_dotenv(find_dotenv(usecwd=True))
@@ -38,18 +42,7 @@ MONGO_PASS = os.getenv("MONGO_PRO_PASSWORD", "")
 MONGO_DB   = os.getenv("MONGO_PRO_DB", "noticias_db")
 MONGO_COL  = os.getenv("MONGO_PRO_COLLECTION", "Noticias")
 
-# ========= RAGFlow (Infinity) =========
-RAGFLOW_BASE_URL      = os.getenv("RAGFLOW_BASE_URL", "http://localhost:9380")
-RAGFLOW_API_KEY       = os.getenv("RAGFLOW_API_KEY", "ragflow-Q1MWQ0ZjUyOTQxNzExZjBhNmQ0ZjI2Mj")
-RAGFLOW_DATASET_ID    = os.getenv("RAGFLOW_DATASET_ID", "")  # si ya lo tienes
-RAGFLOW_DATASET_NAME  = os.getenv("RAGFLOW_DATASET_NAME", "noticias_kb")  # si no tienes ID
-RAGFLOW_CHUNK_METHOD  = "manual"  # Cambiado a "manual" para control total sobre chunking
-RAGFLOW_EMBED_MODEL="amazon.titan-embed-text-v2:0@Bedrock"
-
 # ========= Bedrock (Titan) =========
-import boto3
-from botocore.config import Config
-from botocore.exceptions import ClientError
 
 AWS_REGION = os.getenv("AWS_DEFAULT_REGION", "us-west-2")
 AWS_ACCESS_KEY_ID = os.getenv("AWS_ACCESS_KEY_ID", "")
@@ -57,6 +50,16 @@ AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY", "")
 TITAN_MODEL_ID = os.getenv("AWS_BEDROCK_EMBEDDINGS_ID", "amazon.titan-embed-text-v2:0")
 EMBED_DIMS = int(os.getenv("EMBED_DIMS", "1024"))
 TITAN_NORMALIZE = True  # Titan v2 puede normalizar L2
+
+
+# ========= RAGFlow (Infinity) =========
+RAGFLOW_BASE_URL      = os.getenv("RAGFLOW_BASE_URL", "http://localhost:9380")
+RAGFLOW_API_KEY       = os.getenv("RAGFLOW_API_KEY", "ragflow-Q1MWQ0ZjUyOTQxNzExZjBhNmQ0ZjI2Mj")
+RAGFLOW_DATASET_ID    = os.getenv("RAGFLOW_DATASET_ID", "")  # si ya lo tienes
+RAGFLOW_DATASET_NAME  = os.getenv("RAGFLOW_DATASET_NAME", "a")  # si no tienes ID
+RAGFLOW_CHUNK_METHOD  = "manual"  # Cambiado a "manual" para control total sobre chunking
+RAGFLOW_EMBED_MODEL=TITAN_MODEL_ID#"amazon.titan-embed-text-v2:0@Bedrock"
+
 
 # ========= Provenance =========
 PROVENANCE_SOURCE   = os.getenv("PROVENANCE_SOURCE", "noticias_mongo")
@@ -76,12 +79,13 @@ def bedrock_client():
     )
     return session.client("bedrock-runtime", config=retry_config, region_name=AWS_REGION)
 
+#def titan_text_embedding(bedrock, text: str, dimensions: int = EMBED_DIMS) -> List[float]:
 def titan_text_embedding(bedrock, text: str, dimensions: int = EMBED_DIMS) -> List[float]:
     body = {
-        "inputText": text,
-        "dimensions": dimensions,
-        "normalize": TITAN_NORMALIZE,
-        "embeddingTypes": ["float"]
+        "inputText": text#,
+        #"dimensions": dimensions,
+        #"normalize": TITAN_NORMALIZE,
+        #"embeddingTypes": ["float"]
     }
     try:
         resp = bedrock.invoke_model(
@@ -583,5 +587,5 @@ def main(n: int = 4):
     log.info(f"   - Promedio por documento: {total_chars // len(uploaded_docs) if uploaded_docs else 0:,} caracteres")
 
 if __name__ == "__main__":
-    main(n=20)
+    main(n=2)
     #en el retrieval testing parece que si se busca un nombre específico se ppone alto valor de similarity threshold y muy bajo de vector similarity.

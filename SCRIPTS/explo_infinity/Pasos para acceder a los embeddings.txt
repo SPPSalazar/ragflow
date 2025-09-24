@@ -1,0 +1,60 @@
+Pasos para acceder a los embeddings:
+
+1.Bajar el contenedor con docker-compose down
+2.En el .env cambiar #DOC_ENGINE=${DOC_ENGINE:-elasticsearch}
+DOC_ENGINE=${DOC_ENGINE:-infinity}
+y agregar RAGFLOW_RERANK_MODEL=colbert-v2.0
+3.Subir de nuevo el contenedor pero incluyendo no solo al docker compose sino también al docker compose base
+ Paso: docker-compose -f docker-compose.yml -f docker-compose-base.yml up -d
+ Razón:Parece que el base contiene info de la base de datos infinity (como los puertos y la imagen y la llamada a infinity conf toml.
+ infinity:
+    container_name: ragflow-infinity
+    profiles:
+      - infinity
+    image: infiniflow/infinity:v0.6.0-dev5
+    volumes:
+      - infinity_data:/var/infinity
+      - ./infinity_conf.toml:/infinity_conf.toml
+    command: ["-f", "/infinity_conf.toml"]
+    ports:
+      - ${INFINITY_THRIFT_PORT}:23817
+      - ${INFINITY_HTTP_PORT}:23820
+      - ${INFINITY_PSQL_PORT}:5432
+    env_file: .env
+4. En bash (no en la terminal, puede usar git bash) ejecute:
+ curl -s http://localhost:23820/databases/default_db/tables
+Se obtiene un listado de las tablas, supongo que es el índice ya que no es el nombre.
+En MINIO http://127.0.0.1:9001/browser/ebf267c6968811f09dad4ec3b56f26a8 se puede verificar estos nombres.
+El error code 0 parece indicar que todo está bien, con otros números de error code no aparece info útil.
+{"error_code":0,"tables":["ragflow_e06c5ed0960511f092cfa2aa46f9c158_d3dd622c973111f08d7b6679dc4d2b9a","ragflow_e06c5ed0960511f092cfa2aa46f9c158_ebf267c6968811f09dad4ec3b56f26a8"]}
+
+5. Ahora curl -s http://localhost:23820/databases/default_db/tables/ragflow_e06c5ed0960511f092cfa2aa46f9c158_ebf267c6968811f09dad4ec3b56f26a8/
+ sin embargo da que hay 0 filas:
+{"column_count":"41","database_name":"default_db","error_code":0,"row_count":"0","segment_count":"1","storage_directory":"/var/infinity/data/db_1/tbl_0","table_comment":"","table_name":"ragflow_e06c5ed0960511f092cfa2aa46f9c158_ebf267c6968811f09dad4ec3b56f26a8"}
+Se supone que también sería posible:
+curl -s http://localhost:23820/databases/default_db/tables/ragflow_e06c5ed0960511f092cfa2aa46f9c158_ebf267c6968811f09dad4ec3b56f26a8/rows?limit=1
+sin embargo da error, parece que la API aún no es capaz de obtener esta info. según gpt, la solución es usar postgres:
+
+6. En el env y en los yml se debe hacer el cambio
+INFINITY_PSQL_PORT=5434
+ya que ya se tiene otra base de datos conectada a 5432
+luego volvemos a subir el volumen
+docker compose -f docker-compose.yml -f docker-compose-base.yml up -d
+docker logs -f ragflow-server
+en Windows Shell hacemos
+ & "C:\Program Files\PostgreSQL\17\bin\psql.exe" -h localhost -p 5434 -U root -d default_db --no-password (accedemos a postgres a ese puerto)
+
+al acceder a la base de datos:
+ SELECT id, q_384_vec
+ FROM ragflow_e06c5ed0960511f092cfa2aa46f9c158_ebf267c6968811f09dad4ec3b56f26a8 (o la tabla que queramos)
+ LIMIT 1; PAra ver un solo vector
+
+
+Obtenemos:
+
+                 id   |                                                                              q_384_vec                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 60c173a73b787ec6 | [0.038772583,-0.013859558,-0.025254823,...,0.064733885,-0.03653717,0.062826544,-0.007646179]
+
+
+

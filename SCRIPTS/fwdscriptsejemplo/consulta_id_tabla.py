@@ -32,11 +32,12 @@ else:
 ###Otra opción:
 # --- Listar datasets disponibles ---
 datasets = rf.list_datasets()
-
+tabla_id =[]
 print("Datasets encontrados:")
 for ds in datasets:
     print(f"- {ds.id} :: {ds.name}")
     print(ds.tenant_id)
+    tabla_id.append(f"{ds.tenant_id}+{ds.id}")
 # --- Listar tablas de un dataset específico (ejemplo: default_db) ---
 #tables = rf.list_datasets()
 #print("\nTablas:")

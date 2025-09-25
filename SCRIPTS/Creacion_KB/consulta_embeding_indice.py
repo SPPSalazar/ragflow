@@ -28,3 +28,5 @@ print("Respuesta completa:", json.dumps(data, ensure_ascii=False, indent=2))
 #doc_ids = [r.get("doc_id") for r in rows if isinstance(r, dict)]
 #print("doc_ids:", doc_ids)
 
+
+

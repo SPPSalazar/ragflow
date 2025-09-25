@@ -22,12 +22,12 @@ log = logging.getLogger("mongo_sample_struct")
 # =========================
 # Parámetros MongoDB
 # =========================
-MONGO_HOST = os.getenv("MONGO_PRO_HOST", "localhost")
-MONGO_PORT = os.getenv("MONGO_PRO_PORT", "27017")
-MONGO_USER = os.getenv("MONGO_PRO_USER", "")
-MONGO_PASS = os.getenv("MONGO_PRO_PASSWORD", "")
-MONGO_DB = os.getenv("MONGO_PRO_DB", "noticias_db")
-MONGO_COL = os.getenv("MONGO_PRO_COLLECTION", "Noticias")
+MONGO_HOST = os.getenv("MONGO_PRO_HOST")
+MONGO_PORT = os.getenv("MONGO_PRO_PORT")
+MONGO_USER = os.getenv("MONGO_PRO_USER")
+MONGO_PASS = os.getenv("MONGO_PRO_PASSWORD")
+MONGO_DB = os.getenv("MONGO_PRO_DB")
+MONGO_COL = os.getenv("MONGO_PRO_COLLECTION")
 
 def _get_mongo_client():
   if MONGO_USER and MONGO_PASS:
@@ -43,10 +43,6 @@ def _get_mongo_client():
 
 _get_mongo_client()
 
-#host
-#puerto
-#base de datos
-#usuario (hay uno por conexión o por base de datos o por puerto o por host?)
 
 # =========================
 # Muestreo y transformación

@@ -11,4 +11,44 @@ print("Métodos públicos:", metodos)
 print(inspect.getdoc(rf.list_datasets))
 
 
+##Ejemplo para obtener metadata:
+from dotenv import load_dotenv, find_dotenv
+import funciones2 as funciones
+import os
+from ragflow_sdk import RAGFlow
+
+# =========================
+# Carga de entorno y logging a ragflow
+# =========================
+load_dotenv(find_dotenv(usecwd=True))
+RF_URL = os.getenv("RAGFLOW_URL", "http://localhost:9380")
+RF_API_KEY = "ragflow-ZlMmJiYWE4OWQ1MTExZjBhZTkxYzJiMT"# os.getenv("RAGFLOW_API_KEY", "dev")
+RF_DATASET_NAME = ["Last3months", "2025"]
+rf = RAGFlow(api_key=RF_API_KEY, base_url=RF_URL)
+#dataset = rf.get_dataset(name="2025")
+#existentes = dataset.list_documents()
+#ids_existentes = set()
+#for d in existentes:
+    # algunos SDKs exponen .meta_fields como objeto, otros como None
+#    meta = getattr(d, "meta_fields", None) #ACCESO A METADATA
+
+#    if meta:
+        # aseguramos dict
+#        if not isinstance(meta, dict):
+#            try:
+#                meta = meta.__dict__  # convierte Base -> dict
+#            except:
+#                meta = dict(meta)
+
+#        id_orig = str(meta.get("id_original", "")) if meta else ""
+#        if id_orig:
+#            ids_existentes.add(id_orig)
+
+#print("IDs ya existentes:", ids_existentes)
+#print(existentes)
+
+
+
+
+
 

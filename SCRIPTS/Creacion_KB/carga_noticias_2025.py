@@ -9,7 +9,7 @@ from ragflow_sdk import RAGFlow
 load_dotenv(find_dotenv(usecwd=True))
 RF_URL = os.getenv("RAGFLOW_URL", "http://localhost:9380")
 RF_API_KEY = "ragflow-ZlMmJiYWE4OWQ1MTExZjBhZTkxYzJiMT"# os.getenv("RAGFLOW_API_KEY", "dev")
-RF_DATASET_NAME = ["2020", "2021", "2022", "2023","2024"]#la cantidad de años que se necesiten
+RF_DATASET_NAME = ["2025"]
 rf = RAGFlow(api_key=RF_API_KEY, base_url=RF_URL)
 # --- dataset (get or create) ---
 # =========================
@@ -17,7 +17,7 @@ rf = RAGFlow(api_key=RF_API_KEY, base_url=RF_URL)
 # # =========================
 for i in RF_DATASET_NAME:
     dataset = rf.get_dataset(name=i)
-    noticias = funciones.sample_noticias_structured(100, int(i))
+    noticias = funciones.sample_noticias_3months_complemento(n=10)
     noticias = funciones.datetime_ISO8601(noticias)#noticias[0]["Fecha"] es datetime.datetime no soportado por json
     funciones.cargar_docs(noticias,dataset)
 

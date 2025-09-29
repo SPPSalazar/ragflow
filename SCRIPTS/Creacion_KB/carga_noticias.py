@@ -1,5 +1,6 @@
 from dotenv import load_dotenv, find_dotenv
-import funciones, os
+import funciones2 as funciones
+import os
 from ragflow_sdk import RAGFlow
 
 # =========================

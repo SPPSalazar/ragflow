@@ -1,0 +1,800 @@
+[
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Robo y hurto de vehículos",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Robo y hurto de vehículos"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Armas robadas",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Armas robadas"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Robo y hurto de motocicletas",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Robo y hurto de motocicletas"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Robo a comercios",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Robo a comercios"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Robo a residencias",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Robo a residencias"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Robo a iglesias",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Robo a iglesias"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Robo en buses",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Robo en buses"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Robo a peatones",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Robo a peatones"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Desaparecidos",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Desaparecidos"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Hechos contra la sexualidad",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Hechos contra la sexualidad"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Ataque con arma blanca",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Ataque con arma blanca"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Ataque con arma de fuego",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Ataque con arma de fuego"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Homicidio por arma blanca",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Homicidio por arma blanca"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Homicidio por arma de fuego",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Homicidio por arma de fuego"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Homicidio por estrangulamiento",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Homicidio por estrangulamiento"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Lesiones por arma blanca",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Lesiones por arma blanca"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Lesiones por arma de fuego",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Lesiones por arma de fuego"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Lesiones por arma contundente",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Lesiones por arma contundente"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Lesiones por vapuleo",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Lesiones por vapuleo"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Homicidio por arma contundente",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Homicidio por arma contundente"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Homicidio por linchamiento",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Homicidio por linchamiento"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Violencia intrafamiliar",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Violencia intrafamiliar"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Extorsiones a residencias",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Extorsiones a residencias"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Extorsiones a comercios",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Extorsiones a comercios"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Extorsiones a transporte",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Extorsiones a transporte"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Extorsiones a centros educativos",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Extorsiones a centros educativos"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Secuestros",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Secuestros"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "PNC-Incidencias Delictivas",
+    "tematica_especifica": "Seguridad ciudadana",
+    "texto_repr": "MINGOB, PNC-Incidencias Delictivas, Seguridad ciudadana"
+  },
+
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Seguridad Ciudadana",
+    "tematica_especifica": "Acciones de la Policía Nacional Civil (PNC)",
+    "texto_repr": "MINGOB, Seguridad Ciudadana, Acciones de la Policía Nacional Civil (PNC)"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Seguridad Ciudadana",
+    "tematica_especifica": "Estrategias contra la delincuencia común",
+    "texto_repr": "MINGOB, Seguridad Ciudadana, Estrategias contra la delincuencia común"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Seguridad Ciudadana",
+    "tematica_especifica": "Prevención del delito y programas comunitarios",
+    "texto_repr": "MINGOB, Seguridad Ciudadana, Prevención del delito y programas comunitarios"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Crimen Organizado y Narcotráfico",
+    "tematica_especifica": "Lucha contra carteles y estructuras criminales",
+    "texto_repr": "MINGOB, Crimen Organizado y Narcotráfico, Lucha contra carteles y estructuras criminales"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Crimen Organizado y Narcotráfico",
+    "tematica_especifica": "Incautaciones de drogas y armas",
+    "texto_repr": "MINGOB, Crimen Organizado y Narcotráfico, Incautaciones de drogas y armas"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Crimen Organizado y Narcotráfico",
+    "tematica_especifica": "Colaboración con fuerzas internacionales",
+    "texto_repr": "MINGOB, Crimen Organizado y Narcotráfico, Colaboración con fuerzas internacionales"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Corrupción y Abusos de Autoridad",
+    "tematica_especifica": "Casos de corrupción dentro del Ministerio, PNC o Sistema Penitenciario",
+    "texto_repr": "MINGOB, Corrupción y Abusos de Autoridad, Casos de corrupción dentro del Ministerio, PNC o Sistema Penitenciario"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Corrupción y Abusos de Autoridad",
+    "tematica_especifica": "Denuncias de abuso de poder por autoridades de seguridad",
+    "texto_repr": "MINGOB, Corrupción y Abusos de Autoridad, Denuncias de abuso de poder por autoridades de seguridad"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Sistema Penitenciario",
+    "tematica_especifica": "Control de cárceles",
+    "texto_repr": "MINGOB, Sistema Penitenciario, Control de cárceles"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Sistema Penitenciario",
+    "tematica_especifica": "Motines y disturbios penitenciarios",
+    "texto_repr": "MINGOB, Sistema Penitenciario, Motines y disturbios penitenciarios"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Sistema Penitenciario",
+    "tematica_especifica": "Planes de reinserción social",
+    "texto_repr": "MINGOB, Sistema Penitenciario, Planes de reinserción social"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Migración y Fronteras",
+    "tematica_especifica": "Políticas migratorias y control fronterizo",
+    "texto_repr": "MINGOB, Migración y Fronteras, Políticas migratorias y control fronterizo"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Migración y Fronteras",
+    "tematica_especifica": "Estraditados",
+    "texto_repr": "MINGOB, Migración y Fronteras, Estraditados"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Migración y Fronteras",
+    "tematica_especifica": "Colaboración con otros países en temas de extraditables",
+    "texto_repr": "MINGOB, Migración y Fronteras, Colaboración con otros países en temas de extraditables"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Derechos Humanos y Seguridad",
+    "tematica_especifica": "Uso excesivo de la fuerza por agentes de seguridad",
+    "texto_repr": "MINGOB, Derechos Humanos y Seguridad, Uso excesivo de la fuerza por agentes de seguridad"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Derechos Humanos y Seguridad",
+    "tematica_especifica": "Protestas sociales y la respuesta policial",
+    "texto_repr": "MINGOB, Derechos Humanos y Seguridad, Protestas sociales y la respuesta policial"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Derechos Humanos y Seguridad",
+    "tematica_especifica": "Protección de poblaciones vulnerables",
+    "texto_repr": "MINGOB, Derechos Humanos y Seguridad, Protección de poblaciones vulnerables"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Gestión de Gobernadores Departamentales",
+    "tematica_especifica": "Nombramientos, destituciones y funciones de los gobernadores",
+    "texto_repr": "MINGOB, Gestión de Gobernadores Departamentales, Nombramientos, destituciones y funciones de los gobernadores"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Gestión de Gobernadores Departamentales",
+    "tematica_especifica": "Coordinación territorial del MINGOB",
+    "texto_repr": "MINGOB, Gestión de Gobernadores Departamentales, Coordinación territorial del MINGOB"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Reformas Institucionales y Legislación",
+    "tematica_especifica": "Propuestas de ley relacionadas con seguridad y gobernación",
+    "texto_repr": "MINGOB, Reformas Institucionales y Legislación, Propuestas de ley relacionadas con seguridad y gobernación"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Reformas Institucionales y Legislación",
+    "tematica_especifica": "Modernización de la PNC o Penales",
+    "texto_repr": "MINGOB, Reformas Institucionales y Legislación, Modernización de la PNC o Penales"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Institucionales",
+    "tematica_especifica": "Presupuesto y financiamiento del Ministerio",
+    "texto_repr": "MINGOB, Institucionales, Presupuesto y financiamiento del Ministerio"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Prevención y Gestión de Crisis",
+    "tematica_especifica": "Manejo de desastres naturales desde Gobernación",
+    "texto_repr": "MINGOB, Prevención y Gestión de Crisis, Manejo de desastres naturales desde Gobernación"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Prevención y Gestión de Crisis",
+    "tematica_especifica": "Coordinación interinstitucional en estados de excepción",
+    "texto_repr": "MINGOB, Prevención y Gestión de Crisis, Coordinación interinstitucional en estados de excepción"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Prevención y Gestión de Crisis",
+    "tematica_especifica": "Planificación de seguridad para eventos nacionales",
+    "texto_repr": "MINGOB, Prevención y Gestión de Crisis, Planificación de seguridad para eventos nacionales"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Relaciones Internacionales en Seguridad",
+    "tematica_especifica": "Acuerdos de cooperación con EE. UU., ONU, OEA u otros países",
+    "texto_repr": "MINGOB, Relaciones Internacionales en Seguridad, Acuerdos de cooperación con EE. UU., ONU, OEA u otros países"
+  },
+  {
+    "tematica_principal": "MINGOB",
+    "tematica_secundaria": "Relaciones Internacionales en Seguridad",
+    "tematica_especifica": "Capacitación internacional de cuerpos de seguridad",
+    "texto_repr": "MINGOB, Relaciones Internacionales en Seguridad, Capacitación internacional de cuerpos de seguridad"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Agua, cuencas hidrográficas y recursos hídricos",
+    "tematica_especifica": "Acceso y distribución del agua potable",
+    "texto_repr": "MARN, Agua, cuencas hidrográficas y recursos hídricos, Acceso y distribución del agua potable"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Agua, cuencas hidrográficas y recursos hídricos",
+    "tematica_especifica": "Manejo de cuencas hidrográficas y ríos",
+    "texto_repr": "MARN, Agua, cuencas hidrográficas y recursos hídricos, Manejo de cuencas hidrográficas y ríos"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Agua, cuencas hidrográficas y recursos hídricos",
+    "tematica_especifica": "Conflictos por uso del agua entre comunidades, industrias y agroexportadores",
+    "texto_repr": "MARN, Agua, cuencas hidrográficas y recursos hídricos, Conflictos por uso del agua entre comunidades, industrias y agroexportadores"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Agua, cuencas hidrográficas y recursos hídricos",
+    "tematica_especifica": "Regulación de pozos de agua",
+    "texto_repr": "MARN, Agua, cuencas hidrográficas y recursos hídricos, Regulación de pozos de agua"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Agua, cuencas hidrográficas y recursos hídricos",
+    "tematica_especifica": "Iniciativas de conservación y protección de fuentes hídricas",
+    "texto_repr": "MARN, Agua, cuencas hidrográficas y recursos hídricos, Iniciativas de conservación y protección de fuentes hídricas"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Políticas para la reducción del smog",
+    "tematica_especifica": "Normativas sobre calidad del aire y emisiones contaminantes",
+    "texto_repr": "MARN, Políticas para la reducción del smog, Normativas sobre calidad del aire y emisiones contaminantes"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Políticas para la reducción del smog",
+    "tematica_especifica": "Control de transporte y emisiones industriales",
+    "texto_repr": "MARN, Políticas para la reducción del smog, Control de transporte y emisiones industriales"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Políticas para la reducción del smog",
+    "tematica_especifica": "Medidas de transición energética (combustibles limpios, movilidad eléctrica)",
+    "texto_repr": "MARN, Políticas para la reducción del smog, Medidas de transición energética (combustibles limpios, movilidad eléctrica)"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Políticas para la reducción del smog",
+    "tematica_especifica": "Monitoreo urbano de contaminación atmosférica",
+    "texto_repr": "MARN, Políticas para la reducción del smog, Monitoreo urbano de contaminación atmosférica"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Licenciamiento ambiental y actividades extractivas",
+    "tematica_especifica": "Concesiones y licencias para explotación minera",
+    "texto_repr": "MARN, Licenciamiento ambiental y actividades extractivas, Concesiones y licencias para explotación minera"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Licenciamiento ambiental y actividades extractivas",
+    "tematica_especifica": "Procesos de consulta a comunidades (Convenio 169 de la OIT)",
+    "texto_repr": "MARN, Licenciamiento ambiental y actividades extractivas, Procesos de consulta a comunidades (Convenio 169 de la OIT)"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Licenciamiento ambiental y actividades extractivas",
+    "tematica_especifica": "Impactos ambientales de la minería (agua, deforestación, contaminación)",
+    "texto_repr": "MARN, Licenciamiento ambiental y actividades extractivas, Impactos ambientales de la minería (agua, deforestación, contaminación)"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Licenciamiento ambiental y actividades extractivas",
+    "tematica_especifica": "Conflictos sociales y resistencia comunitaria frente a proyectos extractivos",
+    "texto_repr": "MARN, Licenciamiento ambiental y actividades extractivas, Conflictos sociales y resistencia comunitaria frente a proyectos extractivos"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Licenciamiento ambiental y actividades extractivas",
+    "tematica_especifica": "Transparencia en la adjudicación de licencias de extracción",
+    "texto_repr": "MARN, Licenciamiento ambiental y actividades extractivas, Transparencia en la adjudicación de licencias de extracción"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Licenciamiento ambiental y actividades extractivas",
+    "tematica_especifica": "Transparencia en la adjudicación de licencias de exploración",
+    "texto_repr": "MARN, Licenciamiento ambiental y actividades extractivas, Transparencia en la adjudicación de licencias de exploración"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Licenciamiento ambiental y actividades extractivas",
+    "tematica_especifica": "Transparencia en la adjudicación de licencias ambientales",
+    "texto_repr": "MARN, Licenciamiento ambiental y actividades extractivas, Transparencia en la adjudicación de licencias ambientales"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Gestión de residuos y desechos sólidos",
+    "tematica_especifica": "Implementación de la Ley/Reglamento de residuos sólidos",
+    "texto_repr": "MARN, Gestión de residuos y desechos sólidos, Implementación de la Ley/Reglamento de residuos sólidos"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Gestión de residuos y desechos sólidos",
+    "tematica_especifica": "Conflictos con vertederos, basureros ilegales y protestas comunitarias",
+    "texto_repr": "MARN, Gestión de residuos y desechos sólidos, Conflictos con vertederos, basureros ilegales y protestas comunitarias"
+  },
+  {
+    "tematica_principal": "MARN",
+    "tematica_secundaria": "Gestión de residuos y desechos sólidos",
+    "tematica_especifica": "Fiscalización a empresas y cumplimiento de normas ambientales",
+    "texto_repr": "MARN, Gestión de residuos y desechos sólidos, Fiscalización a empresas y cumplimiento de normas ambientales"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Bloqueos o demandas",
+    "tematica_especifica": "Protestas y bloqueos de transportistas",
+    "texto_repr": "Transporte, Bloqueos o demandas, Protestas y bloqueos de transportistas"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Bloqueos o demandas",
+    "tematica_especifica": "Demandas de subsidios, tarifas o combustibles",
+    "texto_repr": "Transporte, Bloqueos o demandas, Demandas de subsidios, tarifas o combustibles"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Bloqueos o demandas",
+    "tematica_especifica": "Conflictos laborales y gremiales en transporte de carga, urbano y extraurbano",
+    "texto_repr": "Transporte, Bloqueos o demandas, Conflictos laborales y gremiales en transporte de carga, urbano y extraurbano"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Bloqueos o demandas",
+    "tematica_especifica": "Acciones de presión social y negociaciones con el Gobierno",
+    "texto_repr": "Transporte, Bloqueos o demandas, Acciones de presión social y negociaciones con el Gobierno"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Accidentes, denuncias de mal manejo, colapsos del tráfico",
+    "tematica_especifica": "Accidentes de tránsito en transporte pesado",
+    "texto_repr": "Transporte, Accidentes, denuncias de mal manejo, colapsos del tráfico, Accidentes de tránsito en transporte pesado"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Accidentes, denuncias de mal manejo, colapsos del tráfico",
+    "tematica_especifica": "Accidentes de tránsito en transporte urbano",
+    "texto_repr": "Transporte, Accidentes, denuncias de mal manejo, colapsos del tráfico, Accidentes de tránsito en transporte urbano"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Accidentes, denuncias de mal manejo, colapsos del tráfico",
+    "tematica_especifica": "Accidentes de tránsito en transporte extraurbano",
+    "texto_repr": "Transporte, Accidentes, denuncias de mal manejo, colapsos del tráfico, Accidentes de tránsito en transporte extraurbano"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Accidentes, denuncias de mal manejo, colapsos del tráfico",
+    "tematica_especifica": "Accidentes de tránsito en transporte liviano",
+    "texto_repr": "Transporte, Accidentes, denuncias de mal manejo, colapsos del tráfico, Accidentes de tránsito en transporte liviano"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Accidentes, denuncias de mal manejo, colapsos del tráfico",
+    "tematica_especifica": "Denuncias de mal manejo de unidades y falta de control en el servicio",
+    "texto_repr": "Transporte, Accidentes, denuncias de mal manejo, colapsos del tráfico, Denuncias de mal manejo de unidades y falta de control en el servicio"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Accidentes, denuncias de mal manejo, colapsos del tráfico",
+    "tematica_especifica": "Congestión vial y colapsos del tráfico en puntos críticos",
+    "texto_repr": "Transporte, Accidentes, denuncias de mal manejo, colapsos del tráfico, Congestión vial y colapsos del tráfico en puntos críticos"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Reglamento de tránsito",
+    "tematica_especifica": "Aplicación y reformas al Reglamento de Tránsito",
+    "texto_repr": "Transporte, Reglamento de tránsito, Aplicación y reformas al Reglamento de Tránsito"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Reglamento de tránsito",
+    "tematica_especifica": "Controles y sanciones a pilotos",
+    "texto_repr": "Transporte, Reglamento de tránsito, Controles y sanciones a pilotos"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Reglamento de tránsito",
+    "tematica_especifica": "Controles y sanciones a empresas",
+    "texto_repr": "Transporte, Reglamento de tránsito, Controles y sanciones a empresas"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Reglamento de tránsito",
+    "tematica_especifica": "Controles y sanciones a unidades de transporte",
+    "texto_repr": "Transporte, Reglamento de tránsito, Controles y sanciones a unidades de transporte"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Reglamento de tránsito",
+    "tematica_especifica": "Licencias, revisiones técnicas y condiciones de circulación",
+    "texto_repr": "Transporte, Reglamento de tránsito, Licencias, revisiones técnicas y condiciones de circulación"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Reglamento de tránsito",
+    "tematica_especifica": "Iniciativas legislativas y normativas municipales sobre movilidad",
+    "texto_repr": "Transporte, Reglamento de tránsito, Iniciativas legislativas y normativas municipales sobre movilidad"
+  },
+  {
+    "tematica_principal": "Transporte",
+    "tematica_secundaria": "Reglamento de tránsito",
+    "tematica_especifica": "Fiscalización interinstitucional y coordinación en el ordenamiento vial",
+    "texto_repr": "Transporte, Reglamento de tránsito, Fiscalización interinstitucional y coordinación en el ordenamiento vial"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Convocatorias y requisitos para los aspirantes para el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Convocatorias y requisitos para los aspirantes para el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Evaluación de candidatos por comisiones y autoridades para el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Evaluación de candidatos por comisiones y autoridades para el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Debates, audiencias públicas y entrevistas a postulantes para el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Debates, audiencias públicas y entrevistas a postulantes para el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Conflictos, impugnaciones o controversias en el proceso para el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Conflictos, impugnaciones o controversias en el proceso para el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Publicación de listas de candidatos para el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Publicación de listas de candidatos para el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Audiencias públicas y pronunciamientos de gremios o instituciones por el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Audiencias públicas y pronunciamientos de gremios o instituciones por el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Impugnaciones, recusaciones y controversias legales por el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Impugnaciones, recusaciones y controversias legales por el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Convocatorias y recepción de postulaciones para el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Convocatorias y recepción de postulaciones para el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Evaluación de perfiles y entrevistas de los candidatos para el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Evaluación de perfiles y entrevistas de los candidatos para el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Interacciones con partidos políticos por el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Interacciones con partidos políticos por el Ministerio Público"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Ministerio Público",
+    "tematica_especifica": "Controversias, recursos legales y objeciones en el proceso de selección para el Ministerio Público",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Ministerio Público, Controversias, recursos legales y objeciones en el proceso de selección para el Ministerio Público"
+  },
+
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Convocatorias y requisitos para los aspirantes para el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Convocatorias y requisitos para los aspirantes para el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Evaluación de candidatos por comisiones y autoridades para el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Evaluación de candidatos por comisiones y autoridades para el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Debates, audiencias públicas y entrevistas a postulantes para el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Debates, audiencias públicas y entrevistas a postulantes para el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Conflictos, impugnaciones o controversias en el proceso para el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Conflictos, impugnaciones o controversias en el proceso para el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Publicación de listas de candidatos para el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Publicación de listas de candidatos para el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Audiencias públicas y pronunciamientos de gremios o instituciones por el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Audiencias públicas y pronunciamientos de gremios o instituciones por el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Impugnaciones, recusaciones y controversias legales por el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Impugnaciones, recusaciones y controversias legales por el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Convocatorias y recepción de postulaciones para el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Convocatorias y recepción de postulaciones para el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Evaluación de perfiles y entrevistas de los candidatos para el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Evaluación de perfiles y entrevistas de los candidatos para el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Interacciones con partidos políticos por el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Interacciones con partidos políticos por el Tribunal Supremo Electoral"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral",
+    "tematica_especifica": "Controversias, recursos legales y objeciones en el proceso de selección para el Tribunal Supremo Electoral",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en el Tribunal Supremo Electoral, Controversias, recursos legales y objeciones en el proceso de selección para el Tribunal Supremo Electoral"
+  },
+
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Convocatorias y requisitos para los aspirantes para las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Convocatorias y requisitos para los aspirantes para las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Evaluación de candidatos por comisiones y autoridades para las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Evaluación de candidatos por comisiones y autoridades para las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Debates, audiencias públicas y entrevistas a postulantes para las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Debates, audiencias públicas y entrevistas a postulantes para las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Conflictos, impugnaciones o controversias en el proceso para las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Conflictos, impugnaciones o controversias en el proceso para las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Publicación de listas de candidatos para las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Publicación de listas de candidatos para las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Audiencias públicas y pronunciamientos de gremios o instituciones por las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Audiencias públicas y pronunciamientos de gremios o instituciones por las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Impugnaciones, recusaciones y controversias legales por las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Impugnaciones, recusaciones y controversias legales por las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Convocatorias y recepción de postulaciones para las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Convocatorias y recepción de postulaciones para las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Evaluación de perfiles y entrevistas de los candidatos para las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Evaluación de perfiles y entrevistas de los candidatos para las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Interacciones con partidos políticos por las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Interacciones con partidos políticos por las Cortes y Juzgados"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados",
+    "tematica_especifica": "Controversias, recursos legales y objeciones en el proceso de selección para las Cortes y Juzgados",
+    "texto_repr": "Justicia, Proceso de postulación, selección y pronunciamiento en las Cortes y Juzgados, Controversias, recursos legales y objeciones en el proceso de selección para las Cortes y Juzgados"
+  },
+
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Resoluciones y pronunciamientos de la Corte Suprema de Justicia (CSJ) y de la Corte de Constitucionalidad (CC)",
+    "tematica_especifica": "Sentencias, resoluciones de amparos provisionales, acuerdos y publicaciones oficiales en temas políticos y penales",
+    "texto_repr": "Justicia, Resoluciones y pronunciamientos de la Corte Suprema de Justicia (CSJ) y de la Corte de Constitucionalidad (CC), Sentencias, resoluciones de amparos provisionales, acuerdos y publicaciones oficiales en temas políticos y penales"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Resoluciones y pronunciamientos de la Corte Suprema de Justicia (CSJ) y de la Corte de Constitucionalidad (CC)",
+    "tematica_especifica": "Interpretación de normas y efectos sobre la administración de justicia",
+    "texto_repr": "Justicia, Resoluciones y pronunciamientos de la Corte Suprema de Justicia (CSJ) y de la Corte de Constitucionalidad (CC), Interpretación de normas y efectos sobre la administración de justicia"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Resoluciones y pronunciamientos de la Corte Suprema de Justicia (CSJ) y de la Corte de Constitucionalidad (CC)",
+    "tematica_especifica": "Conflictos jurídicos relevantes y su impacto político",
+    "texto_repr": "Justicia, Resoluciones y pronunciamientos de la Corte Suprema de Justicia (CSJ) y de la Corte de Constitucionalidad (CC), Conflictos jurídicos relevantes y su impacto político"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Resoluciones y pronunciamientos de la Corte Suprema de Justicia (CSJ) y de la Corte de Constitucionalidad (CC)",
+    "tematica_especifica": "Monitoreo de decisiones que afecten gobernabilidad y orden público",
+    "texto_repr": "Justicia, Resoluciones y pronunciamientos de la Corte Suprema de Justicia (CSJ) y de la Corte de Constitucionalidad (CC), Monitoreo de decisiones que afecten gobernabilidad y orden público"
+  },
+
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Resoluciones y pronunciamientos del Ministerio Público",
+    "tematica_especifica": "Resoluciones y pronunciamientos por La Fiscalía Especial contra la Impunidad (FECI)",
+    "texto_repr": "Justicia, Resoluciones y pronunciamientos del Ministerio Público, Resoluciones y pronunciamientos por La Fiscalía Especial contra la Impunidad (FECI)"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Resoluciones y pronunciamientos del Ministerio Público",
+    "tematica_especifica": "Resoluciones y pronunciamientos por La Fiscalía contra la Corrupción",
+    "texto_repr": "Justicia, Resoluciones y pronunciamientos del Ministerio Público, Resoluciones y pronunciamientos por La Fiscalía contra la Corrupción"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Resoluciones y pronunciamientos del Ministerio Público",
+    "tematica_especifica": "Resoluciones y pronunciamientos por La Fiscalía contra el Lavado de Dinero y Otros Activos",
+    "texto_repr": "Justicia, Resoluciones y pronunciamientos del Ministerio Público, Resoluciones y pronunciamientos por La Fiscalía contra el Lavado de Dinero y Otros Activos"
+  },
+  {
+    "tematica_principal": "Justicia",
+    "tematica_secundaria": "Resoluciones y pronunciamientos del Ministerio Público",
+    "tematica_especifica": "Resoluciones y pronunciamientos por La Fiscalía de Derechos Humanos",
+    "texto_repr": "Justicia, Resoluciones y pronunciamientos del Ministerio Público, Resoluciones y pronunciamientos por La Fiscalía de Derechos Humanos"
+  }
+]
+

@@ -18,9 +18,9 @@ rf = RAGFlow(api_key=RF_API_KEY, base_url=RF_URL)
 for i in RF_DATASET_NAME:
     dataset = rf.get_dataset(name=i)
     if i != "2025":
-        noticias = funciones.sample_last3months(100)
+        noticias = funciones.sample_last3months()
     else:
-        noticias = funciones.sample_noticias_3months_complemento(100)
+        noticias = funciones.sample_noticias_3months_complemento()
     noticias = funciones.datetime_ISO8601(noticias)#noticias[0]["Fecha"] es datetime.datetime no soportado por json
     funciones.cargar_docs_v2(noticias,dataset)
 print("##################################################")

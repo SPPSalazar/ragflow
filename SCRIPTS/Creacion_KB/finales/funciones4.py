@@ -52,11 +52,15 @@ def sample_noticias_structured(year) -> List[Dict[str, Any]]:
   db = client[MONGO_DB]
   col = db[MONGO_COL]
   # --- Filtrar por año si se pasa el parámetro ---
-  start_date = datetime(year, 1, 1)
-  end_date = datetime(year+1, 1, 1)  # exclusivo
-  pipeline = [{"$match": {"Fecha": {"$gte": start_date, "$lt": end_date}}},
-        {"$sort": {"Fecha": -1}}  # -1 = descendente, 1 = ascendente
-        ]
+  if year:
+    start_date = datetime(year, 1, 1)
+    end_date = datetime(year + 1, 1, 1)  # exclusivo
+    pipeline = [{"$match": {"Fecha": {"$gte": start_date, "$lt": end_date}}},
+          {"$sort": {"Fecha": -1}}  # -1 = descendente, 1 = ascendente
+          ]
+  else:
+     pipeline = [{"$sort": {"Fecha": -1}}  # -1 = descendente, 1 = ascendente
+              ] 
   docs = list(col.aggregate(pipeline))
 
   client.close()
@@ -118,44 +122,24 @@ def datetime_ISO8601(coleccion):
         documento["Fecha"] = documento["Fecha"].isoformat()
     return coleccion
 
-def get_all_documents(dataset, page_size=100):
-    """
-    Devuelve todos los documentos de un dataset recorriendo las páginas.
-    """
-    all_docs = []
-    page = 1
-
-    while True:
-        docs = dataset.list_documents(page=page, page_size=page_size)
-        if not docs:
-            break
-
-        all_docs.extend(docs)
-        if len(docs) < page_size:
-            break  # última página alcanzada
-
-        page += 1
-
-    return all_docs
-
 
 def cargar_docs_v2(coleccion, dataset):
     """
     Realiza la carga del chunk y de la metadata.
     Evita duplicados usando el id_original en meta_fields.
     """
-
-    # ✅ Traemos todos los docs ya existentes con su id_original
-    existentes = get_all_documents(dataset)
+    # Traemos todos los docs ya existentes con su id_original
+    existentes = dataset.list_documents()
     ids_existentes = set()
-
     for d in existentes:
+        # algunos SDKs exponen .meta_fields como objeto, otros como None
         meta = getattr(d, "meta_fields", None)
 
         if meta:
+            # aseguramos dict
             if not isinstance(meta, dict):
                 try:
-                    meta = meta.__dict__
+                    meta = meta.__dict__  # convierte Base -> dict
                 except:
                     meta = dict(meta)
 
@@ -164,14 +148,14 @@ def cargar_docs_v2(coleccion, dataset):
                 ids_existentes.add(id_orig)
 
     for documento in coleccion:
-        id_original1 = str(slugify(documento.get("_id", "")))
+        id_original1 = str(documento.get("_id", ""))
 
         if id_original1 in ids_existentes:
             print(f"Documento {id_original1} ya existe en el dataset, se omite.")
             continue
 
-        titulo = slugify(documento.get("Titulo"))
-        contenido = slugify(documento.get("Contenido"))
+        titulo = slugify(documento.get("Titulo", ""))
+        contenido = slugify(documento.get("Contenido", ""))
         filename = f"{id_original1}.json"
         json_bytes = json.dumps(documento, ensure_ascii=False).encode("utf-8")
 
@@ -200,7 +184,6 @@ def cargar_docs_v2(coleccion, dataset):
                 "relaciones": documento.get("relaciones_directas", "")
             }
         })
-
 
 def delete_docs_older_than_3months(dataset) -> int:
     """
@@ -277,8 +260,5 @@ def get_rows(INF_HOST, DB_NAME, TABLE_NAME,TIMEOUT,limit=1, offset=0):
 
 if __name__=="__main__":
   print("Muestra aleatoria de dos documentos de prueba")
-  #out = sample_noticias_structured(2024)
-  
-  #print(out)
 
 

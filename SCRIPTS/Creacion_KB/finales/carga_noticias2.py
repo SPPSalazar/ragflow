@@ -161,7 +161,7 @@ except Exception as e:
 from ragflow_sdk import RAGFlow
 
 RF_URL = os.getenv("RAGFLOW_URL", "http://localhost:9380")
-RF_API_KEY = "ragflow-ZlMmJiYWE4OWQ1MTExZjBhZTkxYzJiMT"# os.getenv("RAGFLOW_API_KEY", "dev")
+RF_API_KEY = "ragflow-U3YTBkMTM2YTQ5YjExZjA5OWRmNzZjNT"# os.getenv("RAGFLOW_API_KEY", "dev")
 RF_DATASET_NAME = ["2020","2021","2022","2023","2024"]#la cantidad de años que se necesiten
 
 # Conectar a RAGFlow con verificación de conexión
